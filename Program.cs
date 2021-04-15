@@ -60,7 +60,13 @@ namespace AllCardsOnDeckCS
             Console.WriteLine(myList[0]);
             Console.WriteLine(myList[1]);
 
+            Console.WriteLine("");
+            Console.WriteLine("");
 
+            string player1Hand = (myList[0]);
+            string player2Hand = (myList[1]);
+
+            Console.WriteLine($"Your dealt cards are {player1Hand} and {player2Hand}.");
 
         }
     }
